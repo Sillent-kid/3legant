@@ -1,0 +1,67 @@
+/* reset css */
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.sign-in p {
+    position: absolute;top: 20px;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 736px;
+    height: 24px; 
+    font-weight: 500;
+    font-size: 24px;
+    font-family: poppins;
+}
+.f1 {
+    width: 456px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid ; color: rgb(184, 178, 178);
+}
+.in {
+    color: rgb(12, 231, 12);
+}
+
+.btn {
+    width: 456px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+.page1 {
+    display: flex;
+}
+.reg {
+    
+    padding: 250px 70px;
+}
+.box {
+    display: flex;
+    /* justify-content: space-between; */
+    color: rgb(49, 49, 46);
+    gap: 8px;
+}
+.Password {
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    padding-left: 205px;
+}
+.eye {
+    display: flex;
+    align-items: baseline ;
+    border-bottom: 1px solid ; color: rgb(184, 178, 178);
+
+}
+.f2 {
+    width: 437px;
+    height: 40px;
+    border: none;
+    /* border-bottom: 1px solid ; color: rgb(184, 178, 178); */
+}

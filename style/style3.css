@@ -1,0 +1,437 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  /* HEADER STYLING */
+  header .banner-container {
+    background-color: #38CB89;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 80px;
+  }
+  header .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: 14px;
+    width: 800px;
+  }
+  
+  header .banner span a {
+    color: black;
+  }
+  
+  header .banner select {
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+  }
+  
+  header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  header .nav-link {
+    font-weight: 100;
+  }
+  
+  header a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .search-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;;
+  }
+  
+  
+  header .search-bar > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;;
+  }
+
+  /* SECTION 1 */
+
+  .section1 {
+    position: relative;
+  }
+  .sd12 {
+    position: absolute;top: 198px;
+    left: 140px;
+  }
+  .sd12 h1 {
+    font-size: 72px;
+    font-weight: 500;
+    font-family: poppins;
+    color: white;
+    padding-bottom: 30px;
+  }
+  .sd12 p {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 50px;
+    color: rgba(254, 254, 254, 1);
+  }
+  .sd12 a {
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 16px 56px;
+    background-color: #38CB89;
+    color: black;
+  }
+
+
+  /* SECTION 2 */
+
+  .sd21 {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 80px;
+  }
+  .sd22 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+  }
+  .Add {
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 13px 68px;
+    background-color: black;
+    color: white;
+    position: absolute;bottom: 40px;left: 25px;
+  }
+  .adda {
+    position: relative;
+  }
+  .Badge {
+    position: absolute;top: 16px;left: 16px;
+  }
+  .ptag{
+    display: flex;
+    gap: 20px;
+  }
+  .add {
+    position: absolute;top: 16px;right: 16px;
+  }
+
+  /* SECTION 3 */
+
+  .section3 {
+    padding: 55px 80px;
+  }
+  .sd31 {
+    text-align: center;
+    padding: 35px 0;
+  }
+  .sd32 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  .sd32 p {
+    text-align: center;
+    padding: 25px;
+    color: rgba(35, 38, 47, 1);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: poppins;
+  }
+
+
+  /* SECTION 4 */
+
+
+.section4 {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sd411 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: poppins;
+    color: white;
+  }
+  .high {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+  .img {
+    width: 288px ;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sd41 {
+    padding: 0 80px;
+    background-color: rgba(20, 23, 24, 1);
+    width: 720px;
+    height: 532px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img1 {
+    padding: 32px 0;
+    color: white;
+  }
+  .shop-now-btn {
+    width: 154px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 9px  40px;
+    background-color: rgba(56, 203, 137, 1);
+  }
+  .shop-now-btn a {
+    color: black;
+  }
+  .promote {
+    color: rgba(56, 203, 137, 1);
+  }
+
+  /* SECTION5 */
+
+  .section5 {
+    padding: 80px 80px;
+  }
+  .sd5 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 40px 0;
+  }
+  .sd52 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    height: 700px;
+  }
+  .Headband {
+    position: absolute;bottom: 48px;left: 48px;
+  }
+  .Headband h2 {
+    font-size: 34px;
+    font-weight: 500;
+  }
+  .Headband a {
+    color: black;
+    border-bottom: 1px solid;
+  }
+.sd51 {
+    position: relative;
+}
+.band {
+    position: absolute;bottom: 48px;left: 48px;
+}
+.sd521 {
+    position: relative;
+}
+.band a {
+    color: black;
+    border-bottom: 1px solid;
+}
+.band h2 {
+    font-size: 34px;
+    font-weight: 500;
+}
+.sd522 {
+    position: relative;
+}
+
+
+/* SECTION 6 */
+
+.section6{
+    padding: 30px 80px;
+}
+.sd61 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.sd61 h2 {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 40px;
+}
+.sd61 a {
+    border-bottom: 1px solid;
+    gap: 4px;
+    /* width: 122px; */
+    color: black;
+} 
+.sd62 {
+    display: flex;
+    justify-content: space-between;
+}
+.sd621 p {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 500;
+}
+.sd621 a {
+    border-bottom: 1px solid;
+    color: black;
+}
+
+
+/* SECTION 7 */
+
+
+
+.sd71 {
+    position: relative;
+  }
+  .sd712 {
+    width: 1340px;
+    height: 166px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 100px;
+  }
+  .join {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+  }
+  .products {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+  }
+  .input {
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  /* SEECTION 8  */
+
+
+  .section8 {
+    padding: 35px 0px;
+  }
+   .sd81 {
+    text-align: center;
+   }
+   .follow {
+    font-size: 20px;
+    font-weight: 400;
+   }
+   .follow span {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    color: #6C7275;
+   }
+   .news {
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C7275;
+   }
+   .sd81 h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: poppins;
+   }  
+   .sd82 {
+    padding: 35px 0 0 0;
+   }
+
+
+   /* FOOTER */
+
+
+   footer {
+    padding: 80px 80px;
+    color: white;
+    background-color: black;
+   }
+   .f1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+   }
+   .f11 {
+    width: 644px;
+    height: 168px;
+   }
+   .f12 {
+    display: flex;
+    width: 716px;
+    justify-content: space-between;
+    /* gap: 80px; */
+    /* color: white; */
+   }
+   .f2 {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px;
+    padding-top: 32px;color: white;
+   }
+   .f21 {
+    width: 504px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .f21 p {
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 400;
+    color: rgba(232, 236, 239, 1);
+    border-right: 1px solid;
+    text-align: center;
+    padding-right: 20px;
+   }
+
+
+   .f21 a {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(108, 114, 117, 1);
+   }

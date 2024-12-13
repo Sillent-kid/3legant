@@ -1,0 +1,253 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  /* HEADER STYLING */
+  header .banner-container {
+    background-color: rgba(55, 125, 255, 1);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 80px;
+  }
+  header .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+    width: 800px;
+  }
+  
+  header .banner span a {
+    color: white;
+  }
+  
+  header .banner select {
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+  }
+  
+  header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  header .nav-link {
+    font-weight: 100;
+  }
+  
+  header a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .search-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px;;
+  }
+  
+  
+  header .search-bar > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;;
+  }
+
+
+  /* SECTION 1 */
+
+
+  .section1 {
+    display: flex;
+  }
+  .sd21 h1 {
+    font-size: 72px;
+    font-weight: 500;
+  }
+  .sd21 p {
+    font-size: 2px;
+    font-weight: 400;
+    padding-bottom: 40px;
+  }
+  .sd2 a {
+    padding: 12px 56px;
+    background-color: rgba(55, 125, 255, 1);
+    border: 1px solid;
+  }
+
+
+  /* SECTION 2 */
+
+
+ .section2 {
+    padding: 40px 80px;
+ }
+ .sd1 {
+    display: flex;
+    justify-content: space-between;
+ } 
+
+
+ /* SECTION 3 */
+
+
+ .sd31 {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 80px;
+  }
+  .sd32 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+  }
+  .Add {
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 13px 68px;
+    background-color: black;
+    color: white;
+    position: absolute;bottom: 40px;left: 25px;
+  }
+  .add {
+    position: absolute;top: 16px;right: 16px;
+  }
+  .adda {
+    position: relative;
+  }
+  .Badge {
+    position: absolute;top: 16px;left: 16px;
+  }
+  .ptag{
+    display: flex;
+    gap: 20px;
+  }
+
+
+  /* SECTION 4 */
+
+
+  .section4 {
+    height: 389px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sd41 {
+    text-align: center;
+  }
+  .sd42 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+  }
+
+
+  /* SECTION 5 */
+
+
+  .section5 {
+    padding: 20px 100px;
+  }
+  .sd51 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sd511 {
+    position: relative;
+    padding-bottom: 50px;
+  }
+  .sd511  div{
+    position: absolute;bottom: 80px;left: 40px;
+    color: white;
+  }
+  .sd511 div a {
+    color: white;
+    border-bottom: 1px solid;
+    padding-top: 10px;
+  }
+
+
+  /* SECTION 6  */
+
+
+  .section6 {
+    padding: 40px 80px;
+  }
+  .sd61 {
+    text-align: center;
+    font-size: 40px;
+    font-family: poppins;
+    font-weight: 500;
+  }
+  .sd62 {
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-between; */
+    padding: 25px 0;
+  }
+  .sd621 div{
+    display: flex;
+    justify-content: space-between;
+    width: 133px;
+  }
+  .sd621 div img {
+    height: 22px;
+  }
+
+
+  /* SECTION 7 */
+
+  .section7 {
+    display: flex;
+  }
+  .SALE {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(55, 125, 255, 1);
+}
+.sd72 h2 {
+    font-size: 40px;
+    font-family: poppins;
+    font-weight: 500;
+}
+.Hurry {
+    font-size: 20px;
+    font-weight: 400;
+}
+.sd72 a{
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid;
+}
