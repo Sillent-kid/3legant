@@ -1,0 +1,57 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+
+  section {
+    width: 413px;
+    height: 1024px;
+    margin: 0 80px;
+  }
+  .flying1 {
+    display: flex;
+    justify-content: space-between;
+    height: 144px;
+    gap: 50px;
+    padding: 60px 0;
+  }
+  .fa-solid {
+    padding-left: 35px;
+  }
+  .tray {
+    display: flex;
+    gap: 16px;
+  }
+  .cart {
+    margin-top: 60px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: poppins;
+  }
+  .Tray {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .Tray h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .Tray p {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(108, 114, 117, 1);
+  }
+  .Tray span {
+    border: 1px solid rgba(108, 114, 117, 1);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
